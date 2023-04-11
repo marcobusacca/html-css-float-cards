@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* BODY */
+    body{
+        font-family: 'Fredoka', sans-serif;
+    }
 
-body{
-    font-family: 'Fredoka', sans-serif;
-}
+    div#body-container{
+        width: 65%;
+        margin: 0 auto;
+    }
+/* FINE BODY */
