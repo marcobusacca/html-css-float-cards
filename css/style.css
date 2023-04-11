@@ -54,9 +54,45 @@
 
         .main-col{
             width: calc(100% / 3 - 30px);
+            height: 6rem;
+
             margin: 0 15px;
             float: left;
+
+            box-shadow: 2px 2px 2px 2px lightgrey;
             background-color: #0F0E17;
         }
     /* FINE UTILITIES */
+    .main-content{
+        color: white;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-content::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .content-img, .content-text{
+        height: 100%;
+        float: left;
+    }
+
+    .content-img > img{
+        height: 100%;
+    }
+
+    .content-text{
+        margin-top: 5px;
+    }
+
+    .content-text > *{
+        margin: 5px 15px;
+    }
+
+    .content-text > .content-email{
+        color: #71bde0;
+    }
 /* FINE MAIN */
