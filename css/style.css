@@ -34,3 +34,29 @@
         margin-bottom: 50px;
     }
 /* FINE HEADER */
+
+/* MAIN */
+    /* UTILITIES */
+        .main-container{
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+
+        .main-row{
+            width: 100%;
+        }
+
+        .main-row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .main-col{
+            width: calc(100% / 3 - 30px);
+            margin: 0 15px;
+            float: left;
+            background-color: #0F0E17;
+        }
+    /* FINE UTILITIES */
+/* FINE MAIN */
